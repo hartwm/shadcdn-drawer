@@ -15,7 +15,7 @@
     <pre> $openDrawer: {JSON.stringify($openDrawer, null, 2)}</pre>
     <Button on:click={()=>{$openDrawer = true}}>Open</Button>
   
-    <Drawer.Root open={$openDrawer} onOutsideClick={()=>$openDrawer=false}> 
+    <Drawer.Root open={$openDrawer}> 
       <Drawer.Content>
         <div class="mx-auto w-full max-w-xl">
           <Drawer.Header>
