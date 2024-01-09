@@ -1,4 +1,3 @@
 import { writable } from "svelte/store"
-
-
-export let open = writable(false)
+export let openDialog = writable(false)
+export let openDrawer = writable(false)
